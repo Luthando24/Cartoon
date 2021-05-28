@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css?family=Special Elite');
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: #444;
+}
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  height: 70px;
+  line-height: 70px;
+}
+.main-nav a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Creepster';
+    color: #fff;
+    letter-spacing: 7px;
+    height:20px;
+    cursor: pointer; 
+    margin-left: auto;
+  
+}
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container:before {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: grow 60s linear 0.5s infinite;
+  background:
+    url('b\ \(1\).jpg') no-repeat fixed top center / cover;
+}
+.coverText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(57, 80, 184);
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  font-family:'Creepster';
+ 
+  
+}
+.btn {
+  height: 60px;
+  width: 200px;
+  display: inline-block;
+  font-family: arial black;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  color: rgb(41, 37, 37);
+  text-transform: uppercase;
+  font-size: 17px;
+  box-sizing: border-box;
+  background: rgba(50, 158, 68, 0.2);
+  background-size: 400%;
+  border-radius: 10px;
+  border: 2px solid rgb(17, 13, 13);
+  cursor: pointer;
+  z-index: 1;
+}
+.btn:hover {
+  background: rgb(31, 185, 39);
+}
+.section1,h1
+.section1 h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Special Elite';
+  
+  
+}
